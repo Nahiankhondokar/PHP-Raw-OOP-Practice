@@ -38,8 +38,7 @@ class ClassTwo extends ClassOne {
 // * ClassOne --> parent class
 // * ClassTwo --> child class
 
-// echo NewClass::info(); 
-$obj = new ClassTwo;
-echo $obj->info();
-echo $obj->skill1;
+// $obj = new ClassTwo;
+// echo $obj->info();
+// echo $obj->skill1;
 
