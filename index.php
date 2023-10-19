@@ -13,6 +13,16 @@ class NewClass {
     public function fun2(){
         echo 'sklls are '.$this->skill;
     }
+
+    public function __construct()
+    {
+       echo '__construct is called before everything <hr> '; 
+    }
+
+    public function __destruct()
+    {
+        echo '<hr>  __destruct is called after everything'; 
+    }
 }
 
 // echo NewClass::info(); 
