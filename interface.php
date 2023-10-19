@@ -10,13 +10,20 @@
     public function workTwo();
  }
 
+ interface Hello {
+    public function info();
+ }
 
- class A implements Test {
+ class A implements Test, Hello {
     public function workOne(){
         echo 'Hello';
     }
 
     public function workTwo(){
+        echo 'Hi';
+    }
+
+    public function info(){
         echo 'Hi';
     }
  }
