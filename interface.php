@@ -2,7 +2,8 @@
 
 /**
  *  in interface we create functions.
- *  where we implement this interface we have to diclear those function which are created befor in the interface
+ *  where we implement this interface we have to diclear those function which are created before in the interface
+ *  We can implements multiple interface in a single class.
  */
 
  interface Test {

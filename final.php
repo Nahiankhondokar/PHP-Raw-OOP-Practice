@@ -1,6 +1,8 @@
 <?php
 
-// we can not extends final class with another class.
+/**
+ *  we can not extends final class with another class.
+ */
 final class A {
     public $name = 'nahian';
 }
@@ -10,7 +12,9 @@ class B extends A {
 }
 
 
-// we can not access final funciton to extends class also.
+/**
+ *  we can not overwrite both of final function which are exits parent & child class.
+ */
 class C {
     public final function info(){
         echo 'Hello world';
@@ -18,7 +22,7 @@ class C {
 }
 
 class D extends C {
-    public function info(){
+    public final function info(){
         echo 'Hello nation';
     }
 }

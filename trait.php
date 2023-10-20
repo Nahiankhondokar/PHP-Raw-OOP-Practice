@@ -23,7 +23,6 @@ class B extends A {
     }
 }
 
-
 $obj = new B();
 $obj->traitFun();
 

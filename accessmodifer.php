@@ -1,7 +1,12 @@
 <?php
 
+/**
+ *  Public --- we can access anywhere
+ *  Private -- only we can access in the exitsing class
+ *  Protected--we can access in existing class & extend class not anywhere else.
+ */
 class A {
-    const SKILL = ' nahian';
+    const SKILL = 'nahian'; // it is called constant
     
     public $name = 'nahian'; // we can access anywhere
     private $age = 26; // only we can access in the exitsing class
@@ -14,10 +19,9 @@ class B extends A{
         }
 }
 
-
 $obj = new B;
 echo $obj->info();
-echo A::SKILL;
+echo A::SKILL; // always constant is called like static class 
 
 
 
