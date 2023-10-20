@@ -8,21 +8,10 @@ class ClassOne {
     public static function info(){
         echo 'this is '.self::$name;
     }
-
     
     public function fun2(){
         echo 'sklls are '.$this->skill1;
     }
-
-    // public function __construct() // this is loaded first
-    // {
-    //    echo '__construct is called before everything <hr> '; 
-    // }
-
-    // public function __destruct()// this is loaded last
-    // {
-    //     echo '<hr>  __destruct is called after everything'; 
-    // }
 }
 
 class ClassTwo extends ClassOne {
@@ -38,7 +27,7 @@ class ClassTwo extends ClassOne {
 // * ClassOne --> parent class
 // * ClassTwo --> child class
 
-// $obj = new ClassTwo;
-// echo $obj->info();
+$obj = new ClassTwo;
+echo $obj->info();
 // echo $obj->skill1;
 
