@@ -28,3 +28,20 @@ define('SKILL', 'Laravel Dev');
 // can't do that, bcz variable name is same.
 // const NAME = 'hi'; 
 
+
+
+// ====== Loop =========
+$i = 10;
+while($i < 15){
+    echo 'While loop $i <hr>';
+}
+
+// it will run at list one time, although if the condition is false.
+do{
+    echo 'Do while loop $i <hr>';
+}while($i < 20);
+
+
+for($i=15; $i<30; $i++){
+    echo 'For loop $i <hr>';
+};
