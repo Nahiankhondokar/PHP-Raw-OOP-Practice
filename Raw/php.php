@@ -45,3 +45,12 @@ do{
 for($i=15; $i<30; $i++){
     echo 'For loop $i <hr>';
 };
+
+
+// ====== Build in php functions =========
+$desc = 'Hell0 world! This the programming life';
+strlen($desc);
+str_word_count($desc);
+strrev($desc);
+strpos($desc, 'world');
+trim($desc);
