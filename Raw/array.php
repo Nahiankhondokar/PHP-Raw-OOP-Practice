@@ -73,8 +73,11 @@
      *  array_slice() // copy some item form main array & create new array
      *  array_splice() // cut some item form main array & create new array
      *  in_array() // find one item in the existing array
-     *  array_unique() // show only unique item in the existing array
-     *  array_splice() // cut some item form main array & create new array
+     *  array_unique() // show only unique item in the existing array & create a new array
+     *  array_keys() // we can get only keys from an existing array.
+     *  array_values() // we can get only value from an existing array.
+     *  explode() // String to Array.
+     *  implode() // Array to String.
      */
 
 
